@@ -3,7 +3,7 @@
     type="dynamic"
     xmlns="urn:mpeg:dash:schema:mpd:2011"
     availabilityStartTime="2025-06-23T06:55:05Z"
-    publishTime="2025-06-23T07:28:41Z"
+    publishTime="2025-06-23T07:33:13Z"
     minimumUpdatePeriod="PT5S"
     minBufferTime="PT5S"
     timeShiftBufferDepth="PT21S"
@@ -31,12 +31,12 @@
             media="test-$Time$.m4v"
             initialization="test-init.m4v">
           <SegmentTimeline>
-             <S t="1968000" d="8000"/>
-             <S t="1976000" d="8000"/>
-             <S t="1984000" d="8000"/>
-             <S t="1992000" d="8000"/>
-             <S t="2000000" d="8000"/>
-             <S t="2008000" d="8000"/>
+             <S t="2240000" d="8000"/>
+             <S t="2248000" d="8000"/>
+             <S t="2256000" d="8000"/>
+             <S t="2264000" d="8000"/>
+             <S t="2272000" d="8000"/>
+             <S t="2280000" d="8000"/>
           </SegmentTimeline>
         </SegmentTemplate>
       </Representation>
@@ -59,12 +59,12 @@
             media="test-$Time$.m4a"
             initialization="test-init.m4a">
           <SegmentTimeline>
-             <S t="1968000" d="8000"/>
-             <S t="1976000" d="8000"/>
-             <S t="1984000" d="8000"/>
-             <S t="1992000" d="8000"/>
-             <S t="2000000" d="8000"/>
-             <S t="2008000" d="8000"/>
+             <S t="2240000" d="8000"/>
+             <S t="2248000" d="8000"/>
+             <S t="2256000" d="8000"/>
+             <S t="2264000" d="8000"/>
+             <S t="2272000" d="8000"/>
+             <S t="2280000" d="8000"/>
           </SegmentTimeline>
         </SegmentTemplate>
       </Representation>
