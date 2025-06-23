@@ -1,0 +1,299 @@
+2025/05/18 23:14:17 [emerg] 20164#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2025/05/18 23:14:17 [emerg] 20164#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2025/05/18 23:14:17 [emerg] 20164#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2025/05/18 23:14:17 [emerg] 20164#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2025/05/18 23:14:17 [emerg] 20164#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2025/05/18 23:14:17 [emerg] 20164#0: still could not bind()
+2025/05/18 23:15:25 [error] 20132#0: *1 open() "/usr/local/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2025/05/18 23:17:58 [notice] 20331#0: signal process started
+2025/05/18 23:20:04 [notice] 20488#0: signal process started
+2025/06/22 21:42:13 [error] 11257#0: *1 open() "/usr/local/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2025/06/22 21:46:09 [emerg] 11427#0: "server_name" directive is not allowed here in /usr/local/nginx/conf/nginx.conf:122
+2025/06/22 21:46:50 [notice] 11444#0: signal process started
+2025/06/22 21:50:38 [error] 11455#0: *6 open() "/usr/local/nginx/html/stat" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /stat HTTP/1.1", host: "localhost"
+2025/06/22 21:50:38 [error] 11455#0: *6 open() "/usr/local/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/stat"
+2025/06/22 21:58:50 [notice] 12686#0: signal process started
+2025/06/22 22:00:14 [error] 12713#0: *6 open() "/tmp/hls/obs.m3u8" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /hls/obs.m3u8 HTTP/1.1", host: "localhost:8080"
+2025/06/22 22:00:14 [error] 12713#0: *6 open() "/usr/local/nginx/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/hls/obs.m3u8"
+2025/06/22 22:00:18 [error] 12713#0: *6 open() "/tmp/hls/stream.m3u8" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /hls/stream.m3u8 HTTP/1.1", host: "localhost:8080"
+2025/06/22 22:01:10 [error] 12713#0: *6 open() "/usr/local/nginx/html/tmp/hls/stream.m3u8" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /tmp/hls/stream.m3u8 HTTP/1.1", host: "localhost:8080"
+2025/06/22 22:01:14 [error] 12713#0: *6 "/usr/local/nginx/html/tmp/hls/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /tmp/hls/ HTTP/1.1", host: "localhost:8080"
+2025/06/22 22:01:16 [error] 12713#0: *6 open() "/usr/local/nginx/html/tmp/hls/obs" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /tmp/hls/obs HTTP/1.1", host: "localhost:8080"
+2025/06/22 22:02:31 [error] 12713#0: *7 open() "/usr/local/nginx/html/tmp" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /tmp HTTP/1.1", host: "localhost:8080"
+2025/06/22 22:02:35 [error] 12713#0: *7 open() "/usr/local/nginx/html/tmp/hls" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /tmp/hls HTTP/1.1", host: "localhost:8080"
+2025/06/22 22:03:45 [error] 12713#0: *8 open() "/usr/local/nginx/html/tmp/hls/obs" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /tmp/hls/obs HTTP/1.1", host: "localhost:8080"
+2025/06/22 22:03:59 [error] 12713#0: *8 open() "/usr/local/nginx/html/tmp/hls/obs.m3u8" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /tmp/hls/obs.m3u8 HTTP/1.1", host: "localhost:8080"
+2025/06/22 22:04:24 [error] 12713#0: *9 open() "/usr/local/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.141:8080", referrer: "http://192.168.1.141:8080/"
+2025/06/22 22:09:36 [notice] 13336#0: signal process started
+2025/06/22 22:14:27 [error] 13394#0: *10 open() "/usr/local/nginx/html/tmp/hls/obs.m3u8" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /tmp/hls/obs.m3u8 HTTP/1.1", host: "192.168.1.141:8080"
+2025/06/22 22:14:27 [error] 13394#0: *11 open() "/usr/local/nginx/html/tmp/hls/obs.m3u8" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /tmp/hls/obs.m3u8 HTTP/1.0", host: "192.168.1.141:8080"
+2025/06/22 22:20:47 [emerg] 13714#0: "aio on" is unsupported on this platform in /usr/local/nginx/conf/nginx.conf:28
+2025/06/22 22:21:06 [emerg] 13741#0: "aio on" is unsupported on this platform in /usr/local/nginx/conf/nginx.conf:28
+2025/06/22 22:21:25 [emerg] 13772#0: "aio on" is unsupported on this platform in /usr/local/nginx/conf/nginx.conf:44
+2025/06/22 22:21:44 [notice] 13818#0: signal process started
+2025/06/22 22:23:30 [error] 13820#0: *13 open() "/tmp/hls/obs.m3u8" failed (2: No such file or directory), client: 192.168.1.101, server: , request: "GET /hls/obs.m3u8 HTTP/1.1", host: "192.168.1.141:8080"
+2025/06/22 22:23:30 [error] 13821#0: *14 open() "/tmp/hls/obs.m3u8" failed (2: No such file or directory), client: 192.168.1.101, server: , request: "GET /hls/obs.m3u8 HTTP/1.0", host: "192.168.1.141:8080"
+2025/06/22 22:23:48 [error] 13822#0: *15 open() "/tmp/hls/stream.m3u8" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /hls/stream.m3u8 HTTP/1.1", host: "localhost:8080"
+2025/06/22 22:23:52 [error] 13822#0: *15 open() "/tmp/hls/obs.m3u8" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /hls/obs.m3u8 HTTP/1.1", host: "localhost:8080"
+2025/06/22 22:23:58 [error] 13822#0: *15 open() "/tmp/tmp/hls/obs.m3u8" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /tmp/hls/obs.m3u8 HTTP/1.1", host: "localhost:8080"
+2025/06/22 22:24:01 [error] 13822#0: *15 open() "/tmp/hls/obs.m3u8" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /hls/obs.m3u8 HTTP/1.1", host: "localhost:8080"
+2025/06/22 22:25:17 [notice] 14101#0: signal process started
+2025/06/22 22:25:27 [error] 14126#0: *2 directory index of "/tmp/" is forbidden, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8080"
+2025/06/22 22:25:31 [error] 14126#0: *2 directory index of "/tmp/" is forbidden, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8080"
+2025/06/22 22:25:39 [error] 14126#0: *2 open() "/tmp/hls/obs.m3u8" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /hls/obs.m3u8 HTTP/1.1", host: "localhost:8080"
+2025/06/22 22:26:03 [error] 14126#0: *2 open() "/tmp/hls/stream.m3u8" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /hls/stream.m3u8 HTTP/1.1", host: "localhost:8080"
+2025/06/22 22:27:31 [error] 14127#0: *3 access forbidden by rule, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/06/22 22:28:27 [notice] 14416#0: signal process started
+2025/06/22 22:30:52 [notice] 14505#0: signal process started
+2025/06/22 22:31:25 [error] 14540#0: *2 access forbidden by rule, client: 192.168.1.101, server: 0.0.0.0:1935
+2025/06/22 22:33:20 [error] 14541#0: *3 access forbidden by rule, client: 192.168.1.101, server: 0.0.0.0:1935
+2025/06/22 22:33:29 [error] 14543#0: *4 access forbidden by rule, client: 192.168.1.101, server: 0.0.0.0:1935
+2025/06/22 22:34:06 [error] 14545#0: *6 access forbidden by rule, client: 192.168.1.101, server: 0.0.0.0:1935
+2025/06/22 22:34:38 [notice] 14702#0: signal process started
+2025/06/22 22:48:11 [notice] 15386#0: signal process started
+2025/06/22 22:48:27 [error] 15393#0: *2 "/tmp/hls/obs/index.html" is not found (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /hls/obs/ HTTP/1.1", host: "192.168.1.141:8080"
+2025/06/22 22:48:30 [error] 15393#0: *2 open() "/tmp/hls/obs/test" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /hls/obs/test HTTP/1.1", host: "192.168.1.141:8080"
+2025/06/22 22:48:37 [error] 15393#0: *2 open() "/tmp/hls/obs/test.m3u8" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /hls/obs/test.m3u8 HTTP/1.1", host: "192.168.1.141:8080"
+2025/06/22 22:48:56 [error] 15393#0: *2 open() "/tmp/hls/test" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /hls/test HTTP/1.1", host: "192.168.1.141:8080"
+2025/06/22 22:48:56 [error] 15393#0: *2 open() "/usr/local/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.141:8080", referrer: "http://192.168.1.141:8080/hls/test"
+2025/06/22 22:50:57 [error] 15394#0: *3 open() "/tmp/hls/obs.m3u8" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /hls/obs.m3u8 HTTP/1.1", host: "192.168.1.141:8080"
+2025/06/22 22:50:57 [error] 15394#0: *3 open() "/usr/local/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.141:8080", referrer: "http://192.168.1.141:8080/hls/obs.m3u8"
+2025/06/22 22:51:44 [notice] 15476#0: signal process started
+2025/06/22 22:51:48 [error] 15483#0: *2 open() "/tmp/hls/obs.m3u8" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /hls/obs.m3u8 HTTP/1.1", host: "192.168.1.141:8080"
+2025/06/22 22:51:48 [error] 15483#0: *2 open() "/usr/local/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.141:8080", referrer: "http://192.168.1.141:8080/hls/obs.m3u8"
+2025/06/22 22:52:42 [notice] 15533#0: signal process started
+2025/06/22 22:53:47 [notice] 15603#0: signal process started
+2025/06/22 22:54:02 [error] 15634#0: *2 open() "/tmp/hls/obs/test.m3u8" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /hls/obs/test.m3u8 HTTP/1.1", host: "192.168.1.141:8080"
+2025/06/22 22:54:02 [error] 15634#0: *2 open() "/usr/local/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.141:8080", referrer: "http://192.168.1.141:8080/hls/obs/test.m3u8"
+2025/06/22 22:54:04 [error] 15635#0: *3 open() "/tmp/hls/obs/test.m3u8" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /hls/obs/test.m3u8 HTTP/1.1", host: "192.168.1.141:8080"
+2025/06/22 23:01:52 [notice] 16179#0: signal process started
+2025/06/22 23:02:09 [error] 16188#0: *4 open() "/tmp/dash/test" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /dash/test HTTP/1.1", host: "192.168.1.141:8080"
+2025/06/22 23:03:22 [emerg] 16256#0: pcre2_compile() failed: unrecognized character follows \ in "(./?|\mp3|\mp4)$" at "mp3|\mp4)$" in /usr/local/nginx/conf/nginx.conf:58
+2025/06/22 23:04:35 [notice] 16306#0: signal process started
+2025/06/22 23:04:41 [error] 16313#0: *2 open() "/tmp/dash/test" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /dash/test HTTP/1.1", host: "192.168.1.141:8080"
+2025/06/22 23:04:43 [error] 16317#0: *5 open() "/tmp/dash/test" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /dash/test HTTP/1.1", host: "192.168.1.141:8080"
+2025/06/22 23:06:54 [notice] 16391#0: signal process started
+2025/06/22 23:07:08 [error] 16399#0: *3 open() "/tmp/dash/test.m3u8" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /dash/test.m3u8 HTTP/1.1", host: "192.168.1.141:8080"
+2025/06/22 23:07:11 [error] 16399#0: *3 open() "/tmp/dash/test.m3u8" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /dash/test.m3u8 HTTP/1.1", host: "192.168.1.141:8080"
+2025/06/22 23:07:12 [error] 16399#0: *3 open() "/tmp/dash/test.m3u8" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /dash/test.m3u8 HTTP/1.1", host: "192.168.1.141:8080"
+2025/06/22 23:08:15 [notice] 16447#0: signal process started
+2025/06/22 23:08:20 [error] 16475#0: *2 open() "/tmp/dash/test.m3u8" failed (2: No such file or directory), client: 192.168.1.101, server: , request: "GET /dash/test.m3u8 HTTP/1.1", host: "192.168.1.141:8080"
+2025/06/22 23:08:20 [error] 16475#0: *2 open() "/tmp/favicon.ico" failed (2: No such file or directory), client: 192.168.1.101, server: , request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.141:8080", referrer: "http://192.168.1.141:8080/dash/test.m3u8"
+2025/06/22 23:08:22 [error] 16476#0: *4 open() "/tmp/dash/test.m3u8" failed (2: No such file or directory), client: 192.168.1.101, server: , request: "GET /dash/test.m3u8 HTTP/1.1", host: "192.168.1.141:8080"
+2025/06/22 23:24:01 [notice] 16759#0: signal process started
+2025/06/22 23:27:33 [notice] 16843#0: signal process started
+2025/06/22 23:27:35 [error] 16850#0: *2 open() "/tmp/dash/test.m3u8" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /dash/test.m3u8 HTTP/1.1", host: "192.168.1.141:8080"
+2025/06/22 23:27:36 [error] 16850#0: *2 open() "/tmp/favicon.ico" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.141:8080", referrer: "http://192.168.1.141:8080/dash/test.m3u8"
+2025/06/22 23:27:42 [error] 16852#0: *4 open() "/tmp/dash/test" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /dash/test HTTP/1.1", host: "192.168.1.141:8080"
+2025/06/22 23:32:18 [error] 16850#0: *22 open() "/tmp/dash/test.mp4.mpd" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /dash/test.mp4.mpd HTTP/1.1", host: "192.168.1.141:8080"
+2025/06/22 23:32:18 [error] 16850#0: *22 open() "/tmp/favicon.ico" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.141:8080", referrer: "http://192.168.1.141:8080/dash/test.mp4.mpd"
+2025/06/22 23:34:50 [notice] 17181#0: signal process started
+2025/06/22 23:34:59 [error] 17193#0: *5 open() "/tmp/dash/test.mp4.mpd" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /dash/test.mp4.mpd HTTP/1.1", host: "192.168.1.141:8080"
+2025/06/22 23:40:26 [emerg] 17275#0: unexpected "}" in /usr/local/nginx/conf/nginx.conf:26
+2025/06/22 23:40:35 [notice] 17300#0: signal process started
+2025/06/22 23:40:56 [error] 17313#0: *10 open() "/tmp/hls/obs/test.m3u8" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /hls/obs/test.m3u8 HTTP/1.1", host: "192.168.1.141:8080"
+2025/06/22 23:40:56 [error] 17313#0: *10 open() "/tmp/favicon.ico" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.141:8080", referrer: "http://192.168.1.141:8080/hls/obs/test.m3u8"
+2025/06/22 23:41:01 [error] 17308#0: *11 open() "/tmp/hls/stream/test.m3u8" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /hls/stream/test.m3u8 HTTP/1.1", host: "192.168.1.141:8080"
+2025/06/22 23:41:01 [error] 17308#0: *11 open() "/tmp/favicon.ico" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.141:8080", referrer: "http://192.168.1.141:8080/hls/stream/test.m3u8"
+2025/06/22 23:41:20 [error] 17308#0: *12 open() "/tmp/hls/stream.m3u8" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /hls/stream.m3u8 HTTP/1.1", host: "192.168.1.141:8080"
+2025/06/22 23:41:20 [error] 17308#0: *12 open() "/tmp/favicon.ico" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.141:8080", referrer: "http://192.168.1.141:8080/hls/stream.m3u8"
+2025/06/22 23:48:38 [error] 17308#0: *13 open() "/tmp/hls/stream.m3u8" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /hls/stream.m3u8 HTTP/1.1", host: "192.168.1.141:8080"
+2025/06/22 23:48:38 [error] 17308#0: *13 open() "/tmp/favicon.ico" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.141:8080", referrer: "http://192.168.1.141:8080/hls/stream.m3u8"
+2025/06/22 23:48:45 [error] 17308#0: *13 open() "/tmp/hls/stream.m3u8" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /hls/stream.m3u8 HTTP/1.1", host: "192.168.1.141:8080"
+2025/06/22 23:48:45 [error] 17308#0: *13 open() "/tmp/favicon.ico" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.141:8080", referrer: "http://192.168.1.141:8080/hls/stream.m3u8"
+2025/06/22 23:48:55 [error] 17308#0: *14 open() "/tmp/hls/obs.m3u8" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /hls/obs.m3u8 HTTP/1.1", host: "192.168.1.141:8080"
+2025/06/22 23:48:55 [error] 17308#0: *14 open() "/tmp/favicon.ico" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.141:8080", referrer: "http://192.168.1.141:8080/hls/obs.m3u8"
+2025/06/22 23:49:06 [notice] 17464#0: signal process started
+2025/06/22 23:49:10 [error] 17472#0: *2 open() "/tmp/hls/obs.m3u8" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /hls/obs.m3u8 HTTP/1.1", host: "192.168.1.141:8080"
+2025/06/22 23:49:10 [error] 17472#0: *2 open() "/usr/local/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.141:8080", referrer: "http://192.168.1.141:8080/hls/obs.m3u8"
+2025/06/22 23:49:25 [error] 17473#0: *3 open() "/tmp/hls/obs.m3u8" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /hls/obs.m3u8 HTTP/1.1", host: "192.168.1.141:8080"
+2025/06/22 23:49:25 [error] 17473#0: *3 open() "/usr/local/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.141:8080", referrer: "http://192.168.1.141:8080/hls/obs.m3u8"
+2025/06/22 23:49:49 [error] 17471#0: *4 open() "/tmp/dash/obs.mpd" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /dash/obs.mpd HTTP/1.1", host: "192.168.1.141:8080"
+2025/06/22 23:49:49 [error] 17471#0: *4 open() "/usr/local/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.141:8080", referrer: "http://192.168.1.141:8080/dash/obs.mpd"
+2025/06/22 23:50:54 [error] 17475#0: *6 open() "/tmp/hls/obs.m3u8" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /hls/obs.m3u8 HTTP/1.1", host: "192.168.1.141:8080"
+2025/06/22 23:50:54 [error] 17475#0: *6 open() "/usr/local/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.141:8080", referrer: "http://192.168.1.141:8080/hls/obs.m3u8"
+2025/06/22 23:51:53 [notice] 17563#0: signal process started
+2025/06/22 23:52:15 [error] 17571#0: *2 open() "/tmp/hls/test.ts" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /hls/test.ts HTTP/1.1", host: "192.168.1.141:8080"
+2025/06/22 23:54:01 [notice] 17622#0: signal process started
+2025/06/22 23:57:03 [notice] 17733#0: signal process started
+2025/06/22 23:57:11 [error] 17738#0: *2 open() "/tmp/hls/test.ts" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /hls/test.ts HTTP/1.1", host: "192.168.1.141:8080"
+2025/06/22 23:57:11 [error] 17738#0: *2 open() "/usr/local/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.141:8080", referrer: "http://192.168.1.141:8080/hls/test.ts"
+2025/06/22 23:57:32 [error] 17738#0: *2 open() "/tmp/hls/test.m3u8;" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /hls/test.m3u8; HTTP/1.1", host: "192.168.1.141:8080"
+2025/06/22 23:57:32 [error] 17738#0: *2 open() "/usr/local/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.141:8080", referrer: "http://192.168.1.141:8080/hls/test.m3u8;"
+2025/06/22 23:57:50 [notice] 17784#0: signal process started
+2025/06/23 00:00:38 [error] 17797#0: *10 open() "/tmp/hls/obs/test.m3u8" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /hls/obs/test.m3u8 HTTP/1.1", host: "192.168.1.141:8080"
+2025/06/23 00:00:38 [error] 17797#0: *10 open() "/usr/local/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.141:8080", referrer: "http://192.168.1.141:8080/hls/obs/test.m3u8"
+2025/06/23 00:00:43 [error] 17791#0: *11 open() "/tmp/hls/obs/test.m3u8" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /hls/obs/test.m3u8 HTTP/1.1", host: "192.168.1.141:8080"
+2025/06/23 00:00:43 [error] 17791#0: *11 open() "/usr/local/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.141:8080", referrer: "http://192.168.1.141:8080/hls/obs/test.m3u8"
+2025/06/23 00:00:46 [error] 17791#0: *12 open() "/tmp/hls/obs.m3u8" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /hls/obs.m3u8 HTTP/1.1", host: "192.168.1.141:8080"
+2025/06/23 00:00:48 [error] 17791#0: *12 open() "/tmp/hls/obs.m3u8" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /hls/obs.m3u8 HTTP/1.1", host: "192.168.1.141:8080"
+2025/06/23 00:01:28 [notice] 18008#0: signal process started
+2025/06/23 00:01:57 [notice] 18055#0: signal process started
+2025/06/23 00:02:41 [notice] 18103#0: signal process started
+2025/06/23 00:03:41 [notice] 18179#0: signal process started
+2025/06/23 00:04:42 [notice] 18229#0: signal process started
+2025/06/23 00:04:45 [error] 18237#0: *13 open() "/tmp/dash/obs.mpd" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /dash/obs.mpd HTTP/1.1", host: "192.168.1.141:8080"
+2025/06/23 00:04:45 [error] 18237#0: *13 open() "/usr/local/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.141:8080", referrer: "http://192.168.1.141:8080/dash/obs.mpd"
+2025/06/23 00:04:49 [error] 18238#0: *14 open() "/tmp/hls/obs/test.m3u8" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /hls/obs/test.m3u8 HTTP/1.1", host: "192.168.1.141:8080"
+2025/06/23 00:04:49 [error] 18238#0: *14 open() "/usr/local/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.141:8080", referrer: "http://192.168.1.141:8080/hls/obs/test.m3u8"
+2025/06/23 00:11:16 [notice] 18942#0: signal process started
+2025/06/23 00:11:33 [error] 18953#0: *12 open() "/usr/local/nginx/stats/stat.xsl/stat.xsl" failed (20: Not a directory), client: 192.168.1.101, server: localhost, request: "GET /stat.xsl HTTP/1.1", host: "192.168.1.141:8080", referrer: "http://192.168.1.141:8080/stat"
+2025/06/23 00:11:33 [error] 18953#0: *12 open() "/usr/local/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.141:8080", referrer: "http://192.168.1.141:8080/stat"
+2025/06/23 00:11:34 [error] 18954#0: *13 open() "/usr/local/nginx/stats/stat.xsl/stat.xsl" failed (20: Not a directory), client: 192.168.1.101, server: localhost, request: "GET /stat.xsl HTTP/1.1", host: "192.168.1.141:8080", referrer: "http://192.168.1.141:8080/stat"
+2025/06/23 00:11:47 [error] 18954#0: *13 open() "/usr/local/nginx/stats/stat.xsl/stat.xsl" failed (20: Not a directory), client: 192.168.1.101, server: localhost, request: "GET /stat.xsl HTTP/1.1", host: "192.168.1.141:8080"
+2025/06/23 00:13:17 [warn] 19006#0: duplicate extension "m3u8", content type: "application/vnd.apple.mpegurl", previous content type: "application/vnd.apple.mpegurl" in /usr/local/nginx/conf/nginx.conf:138
+2025/06/23 00:13:17 [warn] 19006#0: duplicate extension "ts", content type: "video/mp2t", previous content type: "video/mp2t" in /usr/local/nginx/conf/nginx.conf:139
+2025/06/23 00:13:17 [warn] 19006#0: duplicate extension "mp4", content type: "video/mp4", previous content type: "video/mp4" in /usr/local/nginx/conf/nginx.conf:141
+2025/06/23 00:22:34 [error] 18955#0: *14 open() "/usr/local/nginx/stats/stat.xsl/stat.xsl" failed (20: Not a directory), client: 192.168.1.101, server: localhost, request: "GET /stat.xsl HTTP/1.1", host: "192.168.1.141:8080"
+2025/06/23 00:22:34 [error] 18955#0: *14 open() "/usr/local/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.141:8080", referrer: "http://192.168.1.141:8080/stat.xsl"
+2025/06/23 00:22:36 [error] 18959#0: *17 open() "/usr/local/nginx/stats/stat.xsl/stat.xsl" failed (20: Not a directory), client: 192.168.1.101, server: localhost, request: "GET /stat.xsl HTTP/1.1", host: "192.168.1.141:8080", referrer: "http://192.168.1.141:8080/stat"
+2025/06/23 00:24:13 [warn] 19313#0: duplicate extension "m3u8", content type: "application/vnd.apple.mpegurl", previous content type: "application/vnd.apple.mpegurl" in /usr/local/nginx/conf/nginx.conf:138
+2025/06/23 00:24:13 [warn] 19313#0: duplicate extension "ts", content type: "video/mp2t", previous content type: "video/mp2t" in /usr/local/nginx/conf/nginx.conf:139
+2025/06/23 00:24:13 [warn] 19313#0: duplicate extension "mp4", content type: "video/mp4", previous content type: "video/mp4" in /usr/local/nginx/conf/nginx.conf:141
+2025/06/23 00:24:17 [warn] 19325#0: duplicate extension "m3u8", content type: "application/vnd.apple.mpegurl", previous content type: "application/vnd.apple.mpegurl" in /usr/local/nginx/conf/nginx.conf:138
+2025/06/23 00:24:17 [warn] 19325#0: duplicate extension "ts", content type: "video/mp2t", previous content type: "video/mp2t" in /usr/local/nginx/conf/nginx.conf:139
+2025/06/23 00:24:17 [warn] 19325#0: duplicate extension "mp4", content type: "video/mp4", previous content type: "video/mp4" in /usr/local/nginx/conf/nginx.conf:141
+2025/06/23 00:24:17 [notice] 19325#0: signal process started
+2025/06/23 00:24:20 [warn] 19344#0: duplicate extension "m3u8", content type: "application/vnd.apple.mpegurl", previous content type: "application/vnd.apple.mpegurl" in /usr/local/nginx/conf/nginx.conf:138
+2025/06/23 00:24:20 [warn] 19344#0: duplicate extension "ts", content type: "video/mp2t", previous content type: "video/mp2t" in /usr/local/nginx/conf/nginx.conf:139
+2025/06/23 00:24:20 [warn] 19344#0: duplicate extension "mp4", content type: "video/mp4", previous content type: "video/mp4" in /usr/local/nginx/conf/nginx.conf:141
+2025/06/23 00:24:28 [error] 19346#0: *12 open() "/usr/local/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.1.101, server: , request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.141:8080", referrer: "http://192.168.1.141:8080/stat"
+2025/06/23 00:24:35 [error] 19347#0: *13 open() "/usr/local/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.1.101, server: , request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.141:8080", referrer: "http://192.168.1.141:8080/stat"
+2025/06/23 00:27:04 [notice] 19409#0: signal process started
+2025/06/23 00:27:08 [error] 19416#0: *12 open() "/usr/local/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.1.101, server: , request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.141:8080", referrer: "http://192.168.1.141:8080/stat"
+2025/06/23 00:27:10 [error] 19417#0: *13 open() "/tmp/hls/obs/test.m3u8" failed (2: No such file or directory), client: 192.168.1.101, server: , request: "GET /hls/obs/test.m3u8 HTTP/1.1", host: "192.168.1.141:8080"
+2025/06/23 00:29:04 [error] 19416#0: *30 open() "/usr/local/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.1.101, server: , request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.141:8080", referrer: "http://192.168.1.141:8080/stat"
+2025/06/23 00:30:16 [notice] 19522#0: signal process started
+2025/06/23 00:34:07 [error] 19530#0: *20 open() "/tmp/hls/obs.m3u8" failed (2: No such file or directory), client: 192.168.1.101, server: 192.168.1.141, request: "GET /hls/obs.m3u8 HTTP/1.1", host: "192.168.1.141:8080"
+2025/06/23 00:34:07 [error] 19530#0: *20 open() "/usr/local/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.1.101, server: 192.168.1.141, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.141:8080", referrer: "http://192.168.1.141:8080/hls/obs.m3u8"
+2025/06/23 00:34:09 [error] 19530#0: *21 open() "/tmp/hls/obs.m3u8" failed (2: No such file or directory), client: 192.168.1.101, server: 192.168.1.141, request: "GET /hls/obs.m3u8 HTTP/1.1", host: "192.168.1.141:8080"
+2025/06/23 00:34:09 [error] 19530#0: *21 open() "/usr/local/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.1.101, server: 192.168.1.141, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.141:8080", referrer: "http://192.168.1.141:8080/hls/obs.m3u8"
+2025/06/23 00:36:54 [error] 19530#0: *31 open() "/usr/local/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.1.101, server: 192.168.1.141, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.141:8080", referrer: "http://192.168.1.141:8080/stat"
+2025/06/23 00:37:49 [notice] 19650#0: signal process started
+2025/06/23 00:39:23 [notice] 19714#0: signal process started
+2025/06/23 00:40:01 [error] 19727#0: *17 open() "/usr/local/nginx/html/nginx-auto-push" failed (2: No such file or directory), client: 192.168.1.101, server: live.grants2021.com, request: "GET /nginx-auto-push HTTP/1.1", host: "192.168.1.141:8080", referrer: "http://192.168.1.141:8080/stat"
+2025/06/23 00:40:23 [notice] 19766#0: signal process started
+2025/06/23 00:40:29 [error] 19774#0: *13 open() "/usr/local/nginx/html/nginx-auto-push" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /nginx-auto-push HTTP/1.1", host: "192.168.1.141:8080", referrer: "http://192.168.1.141:8080/stat"
+2025/06/23 00:42:07 [notice] 19829#0: signal process started
+2025/06/23 00:43:57 [notice] 19890#0: signal process started
+2025/06/23 00:44:40 [error] 19899#0: *14 open() "/tmp/hls/obs/test.m3u8" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /hls/obs/test.m3u8 HTTP/1.1", host: "fedoralab.lan:8080"
+2025/06/23 00:44:48 [notice] 19941#0: signal process started
+2025/06/23 00:59:08 [notice] 20130#0: signal process started
+2025/06/23 01:02:43 [notice] 20253#0: signal process started
+2025/06/23 01:05:52 [notice] 20355#0: signal process started
+2025/06/23 01:17:43 [notice] 20929#0: signal process started
+2025/06/23 01:17:52 [error] 20936#0: *12 open() "/usr/local/nginx/test/rtmp-publisher/hlsplayer.html/player" failed (20: Not a directory), client: 192.168.1.101, server: localhost, request: "GET /player HTTP/1.1", host: "192.168.1.141:8080"
+2025/06/23 01:18:09 [notice] 20976#0: signal process started
+2025/06/23 01:18:12 [error] 20984#0: *12 open() "/usr/local/nginx/test/rtmp-publisher/hlsplayer.html/player" failed (20: Not a directory), client: 192.168.1.101, server: localhost, request: "GET /player HTTP/1.1", host: "192.168.1.141:8080"
+2025/06/23 01:18:13 [error] 20984#0: *12 open() "/usr/local/nginx/test/rtmp-publisher/hlsplayer.html/player" failed (20: Not a directory), client: 192.168.1.101, server: localhost, request: "GET /player HTTP/1.1", host: "192.168.1.141:8080"
+2025/06/23 01:18:18 [error] 20984#0: *12 open() "/usr/local/nginx/test/rtmp-publisher/hlsplayer.html/player" failed (20: Not a directory), client: 192.168.1.101, server: localhost, request: "GET /player HTTP/1.1", host: "192.168.1.141:8080"
+2025/06/23 01:24:39 [notice] 21092#0: signal process started
+2025/06/23 01:24:43 [error] 21099#0: *12 open() "/usr/local/nginx/html/player" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /player HTTP/1.1", host: "192.168.1.141:8080"
+2025/06/23 01:24:48 [error] 21100#0: *13 open() "/tmp/hlsplayer" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /hlsplayer HTTP/1.1", host: "192.168.1.141:8080"
+2025/06/23 01:27:15 [error] 21102#0: *15 open() "/usr/local/nginx/html/player" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /player HTTP/1.1", host: "192.168.1.141:8080"
+2025/06/23 01:27:26 [notice] 21172#0: signal process started
+2025/06/23 01:27:29 [error] 21179#0: *12 open() "/usr/local/nginx/html/player" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /player HTTP/1.1", host: "192.168.1.141:8080"
+2025/06/23 01:30:58 [notice] 21286#0: signal process started
+2025/06/23 01:31:03 [error] 21293#0: *12 open() "/usr/local/nginx/html/stream" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /stream HTTP/1.1", host: "192.168.1.141:8080"
+2025/06/23 01:31:16 [error] 21295#0: *14 open() "/usr/local/nginx/html/tmp/hls/test.m3u8" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /tmp/hls/test.m3u8 HTTP/1.1", host: "192.168.1.141:8080", referrer: "http://192.168.1.141:8080/stream.html"
+2025/06/23 01:32:36 [notice] 21351#0: signal process started
+2025/06/23 01:32:40 [error] 21359#0: *13 open() "/usr/local/nginx/html/tmp/hls/test.m3u8" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /tmp/hls/test.m3u8 HTTP/1.1", host: "192.168.1.141:8080", referrer: "http://192.168.1.141:8080/stream.html"
+2025/06/23 01:33:27 [notice] 21406#0: signal process started
+2025/06/23 01:38:21 [notice] 21515#0: signal process started
+2025/06/23 01:42:03 [notice] 21602#0: signal process started
+2025/06/23 01:45:16 [error] 21609#0: *1 open() "/usr/local/nginx/html/stream.html2" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /stream.html2 HTTP/1.1", host: "fedoralab.lan:8080"
+2025/06/23 01:45:49 [error] 21609#0: *18 open() "/usr/local/nginx/html/stream" failed (2: No such file or directory), client: 192.168.1.130, server: localhost, request: "GET /stream HTTP/1.1", host: "live.grants2021.com"
+2025/06/23 01:45:53 [error] 21609#0: *19 open() "/usr/local/nginx/html/stream" failed (2: No such file or directory), client: 192.168.1.130, server: localhost, request: "GET /stream HTTP/1.1", host: "live.grants2021.com"
+2025/06/23 01:48:48 [notice] 21729#0: signal process started
+2025/06/23 01:49:01 [error] 21737#0: *13 open() "/usr/local/nginx/html/stream" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /stream HTTP/1.1", host: "fedoralab.lan:8080"
+2025/06/23 01:49:50 [error] 21738#0: *14 open() "/usr/local/nginx/html/stream/stream.html" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /stream/stream.html HTTP/1.1", host: "fedoralab.lan:8080"
+2025/06/23 01:51:07 [notice] 21796#0: signal process started
+2025/06/23 01:51:14 [error] 21803#0: *12 open() "/usr/local/nginx/html/stream" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /stream HTTP/1.1", host: "fedoralab.lan:8080"
+2025/06/23 01:52:25 [emerg] 21893#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2025/06/23 01:52:25 [emerg] 21893#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2025/06/23 01:52:25 [emerg] 21893#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2025/06/23 01:52:25 [emerg] 21893#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2025/06/23 01:52:25 [emerg] 21893#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2025/06/23 01:52:25 [emerg] 21893#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2025/06/23 01:52:33 [notice] 21914#0: signal process started
+2025/06/23 01:52:37 [error] 21925#0: *1 open() "/usr/local/nginx/html/stream" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /stream HTTP/1.1", host: "fedoralab.lan:8080"
+2025/06/23 01:53:29 [error] 21929#0: *15 open() "/usr/local/nginx/html/stream" failed (2: No such file or directory), client: 192.168.1.130, server: localhost, request: "GET /stream HTTP/1.1", host: "live.grants2021.com"
+2025/06/23 01:57:04 [notice] 22021#0: signal process started
+2025/06/23 01:58:10 [notice] 22082#0: signal process started
+2025/06/23 01:59:21 [notice] 22153#0: signal process started
+2025/06/23 01:59:23 [error] 22165#0: *12 open() "/usr/local/nginx/html/video.js/stream" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /stream HTTP/1.1", host: "fedoralab.lan:8080"
+2025/06/23 02:00:33 [notice] 22223#0: signal process started
+2025/06/23 02:00:35 [error] 22230#0: *2 open() "/usr/local/nginx/html/video-js.min.css" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /video-js.min.css HTTP/1.1", host: "fedoralab.lan:8080", referrer: "http://fedoralab.lan:8080/stream"
+2025/06/23 02:00:35 [error] 22230#0: *2 open() "/usr/local/nginx/html/video.min.js" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /video.min.js HTTP/1.1", host: "fedoralab.lan:8080", referrer: "http://fedoralab.lan:8080/stream"
+2025/06/23 02:01:16 [notice] 22291#0: signal process started
+2025/06/23 02:02:07 [notice] 22353#0: signal process started
+2025/06/23 02:03:23 [error] 22360#0: *18 open() "/usr/local/nginx/html/hls/test.m3u8/test.m3u8" failed (20: Not a directory), client: 192.168.1.130, server: localhost, request: "GET /hls/test.m3u8/test.m3u8 HTTP/1.1", host: "live.grants2021.com", referrer: "https://live.grants2021.com/stream"
+2025/06/23 02:04:20 [notice] 22443#0: signal process started
+2025/06/23 02:05:23 [notice] 22501#0: signal process started
+2025/06/23 02:05:26 [error] 22509#0: *13 open() "/usr/local/nginx/html/hls/test.m3u8/test.m3u8" failed (20: Not a directory), client: 192.168.1.130, server: localhost, request: "GET /hls/test.m3u8/test.m3u8 HTTP/1.1", host: "live.grants2021.com", referrer: "https://live.grants2021.com/stream"
+2025/06/23 02:06:59 [notice] 22692#0: signal process started
+2025/06/23 02:07:50 [error] 22702#0: *46 directory index of "/usr/local/nginx/html/hls/" is forbidden, client: 192.168.1.130, server: localhost, request: "GET /hls/ HTTP/1.1", host: "live.grants2021.com"
+2025/06/23 02:09:22 [notice] 22775#0: signal process started
+2025/06/23 02:11:40 [notice] 22870#0: signal process started
+2025/06/23 02:12:33 [notice] 22929#0: signal process started
+2025/06/23 02:13:28 [notice] 22987#0: signal process started
+2025/06/23 02:31:24 [notice] 27060#0: signal process started
+2025/06/23 02:33:54 [error] 27074#0: *12 open() "/usr/local/nginx/html/dashobs" failed (2: No such file or directory), client: 192.168.1.130, server: localhost, request: "GET /dashobs HTTP/1.1", host: "live.grants2021.com"
+2025/06/23 02:34:28 [error] 27075#0: *13 open() "/usr/local/nginx/html/hlsobs" failed (2: No such file or directory), client: 192.168.1.130, server: localhost, request: "GET /hlsobs HTTP/1.1", host: "live.grants2021.com"
+2025/06/23 02:34:34 [notice] 28469#0: signal process started
+2025/06/23 02:34:36 [error] 28483#0: *1 open() "/usr/local/nginx/html/hlsobs" failed (2: No such file or directory), client: 192.168.1.130, server: localhost, request: "GET /hlsobs HTTP/1.1", host: "live.grants2021.com"
+2025/06/23 02:34:36 [error] 28484#0: *13 open() "/usr/local/nginx/html/hlsobs" failed (2: No such file or directory), client: 192.168.1.130, server: localhost, request: "GET /hlsobs HTTP/1.1", host: "live.grants2021.com"
+2025/06/23 02:34:42 [error] 28485#0: *14 open() "/usr/local/nginx/html/hlsobs" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /hlsobs HTTP/1.1", host: "fedoralab.lan:8080"
+2025/06/23 02:35:39 [notice] 28983#0: signal process started
+2025/06/23 02:35:42 [error] 28990#0: *12 open() "/usr/local/nginx/html/hlsobs" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /hlsobs HTTP/1.1", host: "fedoralab.lan:8080"
+2025/06/23 02:35:46 [error] 28991#0: *13 open() "/usr/local/nginx/html/hlsobs" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /hlsobs HTTP/1.1", host: "fedoralab.lan:8080"
+2025/06/23 02:36:26 [notice] 29355#0: signal process started
+2025/06/23 02:36:28 [error] 29369#0: *12 open() "/usr/local/nginx/html/hlsobs" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /hlsobs HTTP/1.1", host: "fedoralab.lan:8080"
+2025/06/23 02:36:31 [error] 29370#0: *13 open() "/usr/local/nginx/html/hlsobs" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /hlsobs HTTP/1.1", host: "fedoralab.lan:8080"
+2025/06/23 02:37:14 [error] 29372#0: *15 open() "/usr/local/nginx/html/hlsobs" failed (2: No such file or directory), client: 192.168.1.130, server: localhost, request: "GET /hlsobs HTTP/1.1", host: "live.grants2021.com"
+2025/06/23 02:37:17 [error] 29375#0: *17 open() "/usr/local/nginx/html/dashobs" failed (2: No such file or directory), client: 192.168.1.130, server: localhost, request: "GET /dashobs HTTP/1.1", host: "live.grants2021.com"
+2025/06/23 02:38:00 [notice] 30088#0: signal process started
+2025/06/23 02:38:05 [error] 30102#0: *12 open() "/usr/local/nginx/html/hlsobs" failed (2: No such file or directory), client: 192.168.1.130, server: localhost, request: "GET /hlsobs HTTP/1.1", host: "live.grants2021.com"
+2025/06/23 02:38:06 [error] 30103#0: *13 open() "/usr/local/nginx/html/hlsobs" failed (2: No such file or directory), client: 192.168.1.130, server: localhost, request: "GET /hlsobs HTTP/1.1", host: "live.grants2021.com"
+2025/06/23 02:39:19 [error] 30108#0: *17 open() "/usr/local/nginx/html/dashobs" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /dashobs HTTP/1.1", host: "fedoralab.lan:8080"
+2025/06/23 02:40:41 [notice] 31318#0: signal process started
+2025/06/23 02:40:47 [error] 31339#0: *12 open() "/usr/local/nginx/html/dashobs" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /dashobs HTTP/1.1", host: "fedoralab.lan:8080"
+2025/06/23 02:42:25 [notice] 32123#0: signal process started
+2025/06/23 02:42:30 [error] 32140#0: *12 open() "/usr/local/nginx/html/hlsobs" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /hlsobs HTTP/1.1", host: "fedoralab.lan:8080"
+2025/06/23 02:45:21 [error] 32143#0: *15 open() "/usr/local/nginx/html/hlsobs" failed (2: No such file or directory), client: 192.168.1.130, server: localhost, request: "GET /hlsobs HTTP/1.1", host: "live.grants2021.com"
+2025/06/23 02:45:23 [error] 32142#0: *16 open() "/usr/local/nginx/html/hlsobs" failed (2: No such file or directory), client: 192.168.1.130, server: localhost, request: "GET /hlsobs HTTP/1.1", host: "live.grants2021.com"
+2025/06/23 02:45:27 [notice] 33484#0: signal process started
+2025/06/23 02:45:29 [error] 33498#0: *1 open() "/usr/local/nginx/html/hlsobs" failed (2: No such file or directory), client: 192.168.1.130, server: localhost, request: "GET /hlsobs HTTP/1.1", host: "live.grants2021.com"
+2025/06/23 02:45:29 [error] 33499#0: *13 open() "/usr/local/nginx/html/hlsobs" failed (2: No such file or directory), client: 192.168.1.130, server: localhost, request: "GET /hlsobs HTTP/1.1", host: "live.grants2021.com"
+2025/06/23 02:45:57 [notice] 33740#0: signal process started
+2025/06/23 02:46:01 [error] 33761#0: *12 open() "/usr/local/nginx/html/hlsobs" failed (2: No such file or directory), client: 192.168.1.130, server: localhost, request: "GET /hlsobs HTTP/1.1", host: "live.grants2021.com"
+2025/06/23 02:46:32 [notice] 34040#0: signal process started
+2025/06/23 02:46:34 [error] 34054#0: *2 open() "/usr/local/nginx/html/hlsobs" failed (2: No such file or directory), client: 192.168.1.130, server: localhost, request: "GET /hlsobs HTTP/1.1", host: "live.grants2021.com"
+2025/06/23 02:46:35 [error] 34055#0: *13 open() "/usr/local/nginx/html/hlsobs" failed (2: No such file or directory), client: 192.168.1.130, server: localhost, request: "GET /hlsobs HTTP/1.1", host: "live.grants2021.com"
+2025/06/23 02:47:36 [notice] 34543#0: signal process started
+2025/06/23 02:48:17 [emerg] 34876#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2025/06/23 02:48:17 [emerg] 34876#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2025/06/23 02:48:17 [emerg] 34876#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2025/06/23 02:48:17 [emerg] 34876#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2025/06/23 02:48:17 [emerg] 34876#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2025/06/23 02:48:17 [emerg] 34876#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2025/06/23 02:48:21 [notice] 34907#0: signal process started
+2025/06/23 02:48:27 [error] 34924#0: *14 open() "/usr/local/nginx/html/hlsobs" failed (2: No such file or directory), client: 192.168.1.130, server: localhost, request: "GET /hlsobs HTTP/1.1", host: "live.grants2021.com"
+2025/06/23 02:49:07 [emerg] 35291#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2025/06/23 02:49:07 [emerg] 35291#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2025/06/23 02:49:07 [emerg] 35291#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2025/06/23 02:49:07 [emerg] 35291#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2025/06/23 02:49:11 [notice] 35325#0: signal process started
+2025/06/23 02:49:15 [error] 35340#0: *12 open() "/usr/local/nginx/html/hlsobs" failed (2: No such file or directory), client: 192.168.1.130, server: localhost, request: "GET /hlsobs HTTP/1.1", host: "live.grants2021.com"
+2025/06/23 02:50:11 [notice] 35788#0: signal process started
+2025/06/23 02:51:42 [notice] 36494#0: signal process started
+2025/06/23 02:51:47 [error] 36513#0: *12 open() "/usr/local/nginx/html/hlsobs" failed (2: No such file or directory), client: 192.168.1.130, server: localhost, request: "GET /hlsobs HTTP/1.1", host: "live.grants2021.com"
+2025/06/23 02:51:59 [error] 36517#0: *15 open() "/usr/local/nginx/html/hlsobs" failed (2: No such file or directory), client: 192.168.1.130, server: localhost, request: "GET /hlsobs HTTP/1.1", host: "live.grants2021.com"
+2025/06/23 02:52:04 [error] 36518#0: *16 open() "/usr/local/nginx/html/hlsobs" failed (2: No such file or directory), client: 192.168.1.130, server: localhost, request: "GET /hlsobs HTTP/1.1", host: "live.grants2021.com"
+2025/06/23 02:53:29 [error] 36513#0: *30 open() "/usr/local/nginx/html/dash/test.m3u8" failed (2: No such file or directory), client: 192.168.1.130, server: localhost, request: "GET /dash/test.m3u8 HTTP/1.1", host: "live.grants2021.com", referrer: "https://live.grants2021.com/obs/dash"
+2025/06/23 02:53:40 [error] 36514#0: *37 open() "/usr/local/nginx/html/dash/test.m3u8" failed (2: No such file or directory), client: 192.168.1.130, server: localhost, request: "GET /dash/test.m3u8 HTTP/1.1", host: "live.grants2021.com", referrer: "https://live.grants2021.com/obs/dash"
+2025/06/23 02:54:02 [notice] 37562#0: signal process started
+2025/06/23 02:54:07 [error] 37576#0: *13 open() "/usr/local/nginx/html/dash/test.m3u8" failed (2: No such file or directory), client: 192.168.1.130, server: localhost, request: "GET /dash/test.m3u8 HTTP/1.1", host: "live.grants2021.com", referrer: "https://live.grants2021.com/obs/dash"
+2025/06/23 02:55:02 [notice] 38059#0: signal process started
+2025/06/23 02:55:06 [error] 38076#0: *14 open() "/usr/local/nginx/html/dash/test.m3u8" failed (2: No such file or directory), client: 192.168.1.130, server: localhost, request: "GET /dash/test.m3u8 HTTP/1.1", host: "live.grants2021.com", referrer: "https://live.grants2021.com/obs/dash"
+2025/06/23 02:55:28 [error] 38075#0: *16 open() "/usr/local/nginx/html/dash/test.m3u8" failed (2: No such file or directory), client: 192.168.1.101, server: localhost, request: "GET /dash/test.m3u8 HTTP/1.1", host: "fedoralab.lan:8080", referrer: "http://fedoralab.lan:8080/obsconfs/dash"
